@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD033 MD036 MD041 -->
 
-<img alt="BitOS" src=(./bitos_banner.jpg)>
+<img alt="BitOS" src="./bitos_banner.jpg">
 
 *"The computer can be used as a tool to liberate and protect people, rather than to control them."*
 -Hal Finney
