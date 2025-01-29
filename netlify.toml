@@ -1,0 +1,14 @@
+# Migrated to Fleek officially, but leaving this for possible Netlify deploys
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    SameSite = "Lax"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Frame-Options = "SAMEORIGIN"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Content-Security-Policy = "default-src * 'self' data: 'unsafe-inline' 'unsafe-eval'; script-src * 'self' data: 'unsafe-inline' 'unsafe-eval'; style-src * 'self' data: 'unsafe-inline'; img-src * 'self' data:; font-src * 'self' data:; worker-src blob: https://web3os.sh/"

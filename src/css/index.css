@@ -1,0 +1,55 @@
+@import './rotate.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/hint.css/2.7.0/hint.min.css';
+
+* {
+  touch-action: none;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  height: 100%;
+  background-color: #121212;
+  overflow: hidden;
+  width: 100vw;
+  margin: 0;
+  padding: 0.5rem;
+  position: fixed;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#BitOS-terminal {
+  display: none;
+}
+
+#BitOS-terminal, .terminal {
+  width: 100% !important;
+  height: 97% !important;
+}
+
+.CodeMirror {
+  border-radius: 5px;
+}
+
+.winbox.max {
+  width: 100vw !important;
+  height: 100vh !important;
+}
+
+.wb-title {
+  text-transform: none !important;
+}
+
+.ctxmenu {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.ctxmenu li:not(.disabled):hover span {
+  color: #121212;
+  background-color: rgba(255, 255, 255, 0.8)
+}

@@ -1,0 +1,62 @@
+.winbox.BitOS-window {
+  background: linear-gradient(90deg,#243D25,#357C3C);
+  border-radius: 12px 12px 0 0;
+}
+
+.winbox.BitOS-window:not(.min):not(.focus) {
+  background: #333;
+}
+
+@media (hover: hover) {
+  .winbox.BitOS-globalThis.min:not(:hover) {
+    background: #333;
+  }
+
+  .winbox.BitOS-window .wb-icon * {
+    opacity: 0.65;
+  }
+
+  .winbox.BitOS-window .wb-icon *:hover {
+    opacity: 1;
+  }
+}
+
+@media (hover: none) {
+  .winbox.BitOS-globalThis.min {
+    background: #666;
+  }
+}
+
+.winbox.BitOS-globalThis.max {
+  border-radius: 0;
+}
+
+.winbox.BitOS-window .wb-title {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.winbox.BitOS-window .wb-body {
+  margin: 4px;
+  color: #fff;
+  background: #131820;
+}
+
+.winbox.BitOS-window .wb-body::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+.winbox.BitOS-window .wb-body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.winbox.BitOS-window .wb-body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #263040;
+}
+
+.winbox.BitOS-window .wb-body::-webkit-scrollbar-thumb:window-inactive {
+  background: #181f2a;
+}

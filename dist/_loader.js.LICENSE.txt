@@ -1,0 +1,10 @@
+/*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
+
+/**
+ * BitOS Loader
+ * @description The BitOS bootloader
+ * @module @BitOS-core/_loader
+ * @author Jay Mathis <code@mathis.network>
+ * @license MIT
+ * @see https://github.com/BitOS-org/kernel
+ */

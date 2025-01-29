@@ -1,0 +1,5 @@
+@import '@sweetalert2/theme-dark/dark.css';
+
+.BitOS-kernel-dialog-container .swal2-popup {
+  border: 2px solid white;
+}
